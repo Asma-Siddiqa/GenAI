@@ -1,0 +1,21 @@
+# Core
+torch>=2.0.0
+numpy
+
+# Whisper ASR (speech-to-text)
+openai-whisper
+
+# Transformers / LLM (reasoning)
+transformers>=4.40.0
+accelerate
+
+# Optional but recommended for GPU: 4-bit quantized models
+# bitsandbytes
+# unsloth  # uncomment for GPU + 4-bit loading
+
+# Audio handling
+gtts
+# soundfile  # for additional audio format support
+
+# Utilities
+requests

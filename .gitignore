@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# Generated local audio/output files
+generated_query.wav
+sample_query.wav
+sample_audio.wav
+
+# OS/editor noise
+.DS_Store
